@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tạo bài viết</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/fontawesome-5.0.8/css/fontawesome-all.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!--===============================================================================================-->
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+<script src="ckeditor/ckeditor.js"></script>
+	<script src="ckeditor/samples/js/sample.js"></script>
+	<link rel="stylesheet" href="ckeditor/samples/css/samples.css">
+	<link rel="stylesheet" href="ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+</head>
+<style>
+		*{
+			font-family: "Times New Roman";
+		}
+	</style>
+<body class="animsition">
+	
+	<header>
+		<!-- Header desktop -->
+		<div class="container-menu-desktop">
+			<div class="topbar">
+				<div class="content-topbar container h-100">
+					<div class="left-topbar">
+						<span class="left-topbar-item flex-wr-s-c">
+								<span>
+										<a href="#" style="color: #ccc;">Tiếng Việt&nbsp;<i class='fas fa-caret-down'></i></a>
+									</span>
+		
+		
+									<span>
+										&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"  style="color: #ccc;">Thứ 2, 01/01/2019</a>
+									</span>
+						</span>
+	
+					</div>
+	
+					<div class="right-topbar">
+						<a href="register_1.html">Đăng ký</a>&nbsp;&nbsp;&nbsp;
+							<a href="login.html"><button type="button" class="btn btn-warning" ><b>ĐĂNG NHẬP</b></button></a>
+					</div>
+				</div>
+			</div>
+	
+			<!-- Header Mobile -->
+			<div class="wrap-header-mobile">
+				<!-- Logo moblie -->		
+				<div class="logo-mobile">
+					<a href="index.html"><img src="images/icons/logo_01.jpg" alt="IMG-LOGO"></a>
+				</div>
+	
+				<!-- Button show menu -->
+				<div class="btn-show-menu-mobile hamburger hamburger--squeeze m-r--8">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</div>
+			</div>
+	
+			<!-- Menu Mobile -->
+			<div class="menu-mobile">
+				<ul class="topbar-mobile">
+					<li class="left-topbar">
+						<span class="left-topbar-item flex-wr-s-c">
+							<span>
+								Tiếng Việt<i class='fas fa-angle-down'></i>
+							</span>
+	
+	
+							<span>
+								&nbsp;&nbsp;&nbsp;&nbsp;Thứ 2, 01/01/2019
+							</span>
+						</span>
+					</li>
+	
+					
+	
+					<li class="right-topbar">
+						<p>Đăng ký&nbsp;&nbsp;&nbsp;
+							<button type="button" class="btn btn-warning" ><b>ĐĂNG NHẬP</b></button></p>
+					</li>
+				</ul>
+	
+				<ul class="main-menu-m">
+					<li>
+						<a href="index.html">Trang chủ</a>
+					</li>
+	
+					<li>
+						<a href="#">Tin tức nông nghiệp</a>
+					</li>
+	
+					<li>
+						<a href="#">Thị trường nông nghiệp</a>
+					</li>
+	
+					<li>
+						<a href="gocchiase.html">Góc chia sẻ</a>
+					</li>
+	
+					<li>
+						<a href="gochoidap.html">Góc hỏi đáp</a>
+					</li>
+	
+					
+				</ul>
+			</div>
+			
+			<!--  -->
+			<div class="wrap-logo container">
+				<!-- Logo desktop -->		
+				<div class="logo">
+					<a href="index.html"><img src="images/icons/logo_01.jpg" alt="LOGO"></a>
+				</div>	
+	
+				<!-- Banner -->
+				<div class="banner-header">
+					<a href="#"><img src="images/banner-01.jpg" alt="IMG"></a>
+				</div>
+			</div>	
+			
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-success" style=" font-weight: bold; margin-top: 1%;">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse justify-content-md-left" id="navbarsExample08">
+				  <div class="container">
+						<ul class="navbar-nav">
+								<li class="nav-item active">
+								  <a class="nav-link" href="index.html" style="margin: 0px 0px;">Trang chủ</a>
+								</li>
+								
+								<li class="nav-item dropdown active" style="margin: 0px 30px;">
+								  <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tin tức nông nghiệp</a>
+								  <div class="dropdown-menu" aria-labelledby="dropdown08">
+									<a class="dropdown-item" href="#">Trong nước</a>
+									<a class="dropdown-item" href="#">Thế giới</a>
+									<a class="dropdown-item" href="#">Khoa học kỹ thuật</a>
+									<a class="dropdown-item" href="#">Thời tiết nông vụ</a>
+									<a class="dropdown-item" href="#">Dự báo sâu bệnh</a>
+									<a class="dropdown-item" href="#">Chi tiết bài viết</a>
+								  </div>
+								</li>
+								<li class="nav-item dropdown active" style="margin: 0px 0px;">
+									<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thị trường nông nghiệp</a>
+									<div class="dropdown-menu" aria-labelledby="dropdown08">
+										<a class="dropdown-item" href="#">Thị trường chung</a>
+										<a class="dropdown-item" href="#">Cây giống, con giống</a>
+										<a class="dropdown-item" href="#">Vật tư nông nghiệp</a>
+										<a class="dropdown-item" href="#">Phân bón, thuốc BVTV</a>
+										<a class="dropdown-item" href="#">Hoa, cây kiểng</a>
+										<a class="dropdown-item" href="#">Khác</a>
+									</div>
+								  </li>
+								  <li class="nav-item active">
+									<a class="nav-link" href="gocchiase.html" style="margin: 0px 30px;">Góc chia sẻ</a>
+								  </li>
+								  <li class="nav-item active">
+									<a class="nav-link" href="gochoidap.html" style="margin: 0px 0px;">Góc hỏi đáp</a>
+								  </li>
+							  </ul>
+				  </div>
+				</div>
+			  </nav>
+		</div>
+	</header>
+	
+	<!-- Headline -->
+	<div class="container">
+		<div class="bg0 flex-wr-sb-c p-rl-20 p-tb-8">
+			<div class="f2-s-1 p-r-30 size-w-0 m-tb-6 flex-wr-s-c">
+				<span class="text-uppercase cl2 p-r-8">
+					<b>TIN MỚI: </b>
+				</span>
+	
+				<span class="dis-inline-block cl6 slide100-txt pos-relative size-w-0" data-in="fadeInDown" data-out="fadeOutDown">
+					<span class="dis-inline-block slide100-txt-item animated visible-false">
+						<a href="#" style="color: black;">Ruồi đục trái xoài</a>
+					</span>
+					
+					<span class="dis-inline-block slide100-txt-item animated visible-false">
+						<a href="#" style="color: black;">Trồng cà rốt củ to đều tăm tắp, nhà nông Cẩm Giàng thu tiền tỷ</a>
+					</span>
+	
+					<span class="dis-inline-block slide100-txt-item animated visible-false">
+						<a href="#" style="color: black;">Kỹ thuật trồng cà phê xanh lùn năng suất cao ở Tây Nguyên</a>
+					</span>
+				</span>
+			</div>
+	
+			<div class="pos-relative size-a-2 bo-1-rad-22 of-hidden bocl11 m-tb-6">
+				<input class="f1-s-1 cl6 plh9 s-full p-l-25 p-r-45" type="text" name="search" placeholder="Tìm kiếm...">
+				<button class="flex-c-c size-a-1 ab-t-r fs-20 cl2 hov-cl10 trans-03">
+					<i class="zmdi zmdi-search"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+	<!-- Breadcrumb -->
+	<div class="container">
+		<div class="headline bg0 flex-wr-sb-c p-rl-20 p-tb-8">
+			<div class="f2-s-1 p-r-30 m-tb-6">
+				<a href="index.html" class="breadcrumb-item f1-s-3 cl9">
+					Trang chủ
+				</a>
+
+				<a href="gocchiase.html" class="breadcrumb-item f1-s-3 cl9">
+					Góc chia sẻ 
+				</a>
+
+				<a href="taobaiviet.html" class="breadcrumb-item f1-s-3 cl9">
+					Tạo bài viết
+				</a>
+
+			</div>
+
+			
+		</div>
+	</div>
+
+	<!-- Content -->
+	<section class="bg0 p-b-40 p-t-10">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-10 col-lg-8 p-b-30">
+					<div class="p-r-10 p-r-0-sr991">
+						<!-- Blog Detail -->
+						<div class="p-b-10">
+						
+							<h3 class="f1-l-3 cl2 p-b-0 p-t-0 respon2"  style="font-size: 20px; text-align: center;">
+								<b>BÀI VIẾT CỦA BẠN</b>
+							</h3><br/>
+							<div>
+									<form action="/action_page.php">
+										<div class="form-group">
+										  <label for="title">Tiêu đề<e style="color: red;"> *</e></label>
+										  <input type="text" class="form-control" id="name" name="username" required>
+										</div>
+										<br/>
+										<div class="form-group">
+											<label for="content">Nội dung<e  style="color: red;"> *</e></label>
+											<div id="editor">
+														
+											</div>
+										  </div>
+										  <div class="#" style="background-color: gainsboro; border-radius: 5px; height: 150px; width: 250px; color: black">
+												<div style="font-size: 35px;"><br/>
+														<a><center><i class="fas fa-camera"></i></center></a>
+												</div>
+											</div><br/>
+										  <div class="#" style="background-color: gainsboro; border-radius: 5px; height: 30px; width: 250px; color: black">
+												<a><p style="font-size: 18px; padding-top: 2px">&emsp;&emsp;&emsp;&nbsp;Hình ảnh bài viết</p></a>
+											</div><br/>
+										<div class = "text-left">
+											&ensp;&emsp;&emsp;&emsp;&emsp;<button type="submit" class="btn btn-success">&emsp;Đăng bài&emsp;</button>
+										</div>
+									  </form>								 
+									 </div>
+						</div>
+
+					</div>
+				</div>
+				<!--Right-->
+				<div class="col-md-10 col-lg-4 p-b-80" style="border-left: 1px solid grey">
+							<!--  -->
+						<!--THI TRUONG CHUNG-->
+					<div class="right1">
+						<div class="ttc" style="background-color: #00A000; height: 29px; color: #FFFFFF">
+							<center><p style="font-size: 18px; padding-top: 2px;"><a href="#" style="color: white;">Thị trường chung</a></p></center>
+						</div>
+							<!--ttc1-->
+						<div class="row" style="padding-top: 10px">
+							<div class="col-sm-4">
+								<img src="images/right/ca-tra.jpg" alt="IMG" width="110px" height="100px">
+							</div>
+							<div class="col-sm-8">
+	
+									<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+										TP HCM bảo tồn hơn 380 giống hoa lan quý hiếm
+									</a>
+								<div class="infoRight">
+									<p>Theo Bộ Nông nghiệp và Phát triển nông thôn, tổng kim...</p>
+								</div>
+	
+							</div>
+						</div>
+							<!--ttc2-->
+						<div class="row" style="padding-top: 10px">
+							<div class="col-sm-4">
+								<img src="images/right/thanh-long.jpg" alt="IMG" width="110px" height="100px">
+							</div>
+							<div class="col-sm-8">
+								<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+									Cảnh báo xuất khẩu nông sản giảm do thương chiến Mỹ - Trung
+								</a>
+								<div class="infoRight">
+									<p>Thương chiến Mỹ - Trung leo...</p>
+								</div>
+							</div>
+						</div>
+							<!--ttc3-->
+							<div class="row" style="padding-top: 10px">
+								<div class="col-sm-4">
+									<img src="images/right/xoai.jpg" alt="IMG" width="110px" height="100px">
+								</div>
+								<div class="col-sm-8">
+									<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+										 Từ 1/9, EU kiểm dịch thực vật chặt chẽ với nhiều nông sản nhập khẩu
+									</a>
+									<div class="infoRight">
+										<p>Theo Cục Bảo vệ thực vật...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br/>
+						<!--END THI TRUONG CHUNG-->
+	
+						<!--BAI MOI NHAT-->
+						<div class="right2" style="padding-top: 10px;">
+						<div class="bmn" style="background-color: #00A000; height: 29px; color: #FFFFFF;">
+							<center><p style="font-size: 18px; padding-top: 2px"><a href="#" style="color: white;">Bài mới nhất</a></p></center>
+						</div>
+						<!--ttc1-->
+						<div class="row" style="padding-top: 10px">
+							<div class="col-sm-4">
+								<img src="images/right/phanbonnpk.jpg" alt="IMG" width="110px" height="100px">
+							</div>
+							<div class="col-sm-8">
+								<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+									Náo loạn phân bón: NPK láo nháo đủ kiểu
+								</a>
+								<div class="infoRight">
+									<p>Bây giờ hễ ra đại lý phân bón là gặp NPK với đủ loại công...</p>
+								</div>
+							</div>
+						</div>
+						<!--ttc2-->
+						<div class="row" style="padding-top: 10px">
+							<div class="col-sm-4">
+								<img src="images/right/rautiato.jpg" alt="IMG" width="110px" height="100px">
+							</div>
+							<div class="col-sm-8">
+								<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+									Từ 1/9, EU kiểm dịch thực vật chặt chẽ nông sản nhập khẩu
+								</a>
+								<div class="infoRight">
+									<p>Cuối tháng 6 vừa qua...</p>
+								</div>
+							</div>
+						</div>
+						 <!--ttc3-->
+							<div class="row" style="padding-top: 10px">
+								<div class="col-sm-4">
+									<img src="images/right/bmn1.png" alt="IMG" width="110px" height="100px">
+								</div>
+								<div class="col-sm-8">
+									<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+										Trồng khổ qua trong chai nhựa bán giá gấp đôi
+									</a>
+									<div class="infoRight">
+										<p>Với sáng kiến cùng chai nhựa bọc trái khổ qua, ông Nguyễn...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br/>
+						<!--END BAI MOI NHAT-->
+	
+						<!--BAI DUOC XEM NHIEU NHAT-->
+						<div class="right3" style="padding-top: 10px;">
+							<div class="bdxnn" style="background-color: #00A000; height: 29px; color: #FFFFFF; ">
+								<center><p style="font-size: 18px; padding-top: 2px"><a href="#" style="color: white;">Bài được xem nhiều nhất</a></p></center>
+							</div>
+							<!--bdxnn1-->
+							<div class="row" style="padding-top: 10px">
+								<div class="col-sm-4">
+									<img src="images/right/duachuot.jpg" alt="IMG" width="110px" height="100px">
+								</div>
+								<div class="col-sm-8">
+									<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+										Quá choáng với tiết lộ của nông dân trồng dưa chuột
+									</a>
+									<div class="infoRight">
+										<p>"Dưa chuột là loại rau quả mà người trồng...</p>
+									</div>
+								</div>
+							</div>
+							<!--bdxnn2-->
+							<div class="row" style="padding-top: 10px">
+								<div class="col-sm-4">
+									<img src="images/right/lua%202.jpg" alt="IMG" width="110px" height="100px">
+								</div>
+								<div class="col-sm-8">
+									<a href="#" class="f1-l-1 cl2 hov-cl10 trans-03 respon2">
+										Cần Thơ bắt quả tang cơ sở bán lúa giống giả thương hiệu
+									</a>
+									<div class="infoRight">
+										<p>Một công ty ở Cần Thơ mua...</p>
+									</div>
+								</div>
+							</div>
+							<!--bdxnn3-->
+						 
+						</div>
+						<br/>
+						<!--END BAI DUOC XEM NHIEU NHAT-->
+					</div>
+	
+					<!--End Right-->
+				
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="bg2 p-t-40 p-b-25">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 p-b-20">
+						<div class="size-h-4 flex-s-c">
+							<a href="index.html">
+								<img class="max-s-full" src="images/icons/logo_02.jpg" alt="LOGO" width=50%>
+							</a>
+						</div>
+
+						<div>
+							<div class="p-t-15">
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-facebook-f"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-twitter"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-pinterest-p"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-vimeo-v"></span>
+								</a>
+
+								<a href="#" class="fs-18 cl11 hov-cl10 trans-03 m-r-8">
+									<span class="fab fa-youtube"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 p-b-20">
+						<div class="size-h-1 flex-s-c">
+							<h5 class="f1-m-7 cl0" style="margin-bottom:6%">
+								Liên hệ
+								
+							</h5>
+						</div>
+
+						<ul>
+							<li class="flex-wr-sb-s p-b-20">
+
+								<div class="size-w-5">
+									<h6 class="p-b-5">
+										<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+											Khu phố 6, phường Linh Trung, quận Thủ Đức, TPHCM.
+										</a>
+									</h6>
+								</div>
+							</li>
+
+							<li class="flex-wr-sb-s p-b-20">
+								
+								<div class="size-w-5">
+									<h6 class="p-b-5">
+										<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+											ngoquang9999@gmail.com.
+										</a>
+									</h6>
+								</div>
+							</li>
+
+							<li class="flex-wr-sb-s p-b-20">
+								
+								<div class="size-w-5">
+									<h6 class="p-b-5">
+										<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03">
+											Hotline: 19009999.
+										</a>
+									</h6>
+
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-sm-6 col-lg-4 p-b-20">
+						<div class="size-h-1 flex-s-c">
+							<h5 class="f1-m-7 cl0" style="margin-bottom:6%">
+								Liên kết
+							</h5>
+						</div>
+
+						<ul class="m-t--12">
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									Công ty TNHH 1 thành viên - Gốm sứ phương Đông.
+								</a>
+							</li>
+
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									Chi cục thuế TPHCM.
+								</a>
+							</li>
+
+							<li class="how-bor1 p-rl-5 p-tb-10">
+								<a href="#" class="f1-s-5 cl11 hov-cl10 trans-03 p-tb-8">
+									Ngân hàng NN & PTNT Việt Nam.
+								</a>
+							</li>
+
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg11">
+			<div class="container size-h-4 flex-c-c p-tb-15">
+				<span class="f1-s-1 cl0 txt-center" style="color: #cccccc;">
+				@ CỔNG THÔNG TIN ĐIỆN TỬ CỤC TRỒNG TRỌT - VERSION 2.0
+				</span>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<span class="fas fa-angle-up"></span>
+		</span>
+	</div>
+
+	<!-- Modal Video 01-->
+	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document" data-dismiss="modal">
+			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
+
+			<div class="wrap-video-mo-01">
+				<div class="video-mo-01">
+					<iframe src="https://www.youtube.com/embed/wJnBTPUQS5A?rel=0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		initSample();
+	</script>
+
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
