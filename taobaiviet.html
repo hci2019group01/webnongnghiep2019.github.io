@@ -47,12 +47,21 @@
 					<div class="left-topbar">
 						<span class="left-topbar-item flex-wr-s-c">
 								<span>
-										<a href="#" style="color: #ccc;">Tiếng Việt&nbsp;<i class='fas fa-caret-down'></i></a>
+									<div class="dropdown">
+										<button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown">
+										  Tiếng Việt
+										</button>
+										<div class="dropdown-menu">
+										  <a class="dropdown-item" href="#">English</a>
+										  <a class="dropdown-item" href="#">France</a>
+										  <a class="dropdown-item" href="#">Japan</a>
+										</div>
+									  </div>
 									</span>
 		
 		
 									<span>
-										&nbsp;&nbsp;&nbsp;&nbsp;<a href="#"  style="color: #ccc;">Thứ 2, 01/01/2019</a>
+										&nbsp;&nbsp;&nbsp;&nbsp;Thứ 2, 01/01/2019
 									</span>
 						</span>
 	
@@ -189,7 +198,6 @@
 			  </nav>
 		</div>
 	</header>
-	
 	<!-- Headline -->
 	<div class="container">
 		<div class="bg0 flex-wr-sb-c p-rl-20 p-tb-8">
@@ -254,30 +262,33 @@
 						
 							<h3 class="f1-l-3 cl2 p-b-0 p-t-0 respon2"  style="font-size: 20px; text-align: center;">
 								<b>BÀI VIẾT CỦA BẠN</b>
-							</h3><br/>
+							</h3>
 							<div>
 									<form action="/action_page.php">
 										<div class="form-group">
 										  <label for="title">Tiêu đề<e style="color: red;"> *</e></label>
 										  <input type="text" class="form-control" id="name" name="username" required>
 										</div>
-										<br/>
+										
 										<div class="form-group">
 											<label for="content">Nội dung<e  style="color: red;"> *</e></label>
 											<div id="editor">
 														
 											</div>
 										  </div>
-										  <div class="#" style="background-color: gainsboro; border-radius: 5px; height: 150px; width: 250px; color: black">
-												<div style="font-size: 35px;"><br/>
-														<a><center><i class="fas fa-camera"></i></center></a>
+										   <div class="#">
+												<a><p style="font-size: 18px; padding-top: 0px">&emsp;&emsp;&nbsp;&nbsp;Hình ảnh bài viết</p></a>
+											</div>
+										  <div class="#" style="background-color: gainsboro; border-radius: 3px; height: 170px; width: 222px; color:#00A000">
+												<div><br/>&nbsp;
+														<center><label class="btn btn-default" style="font-size: 30px;">
+															<i class="fas fa-camera"> </i><input type="file" hidden>
+														</label></center>
 												</div>
-											</div><br/>
-										  <div class="#" style="background-color: gainsboro; border-radius: 5px; height: 30px; width: 250px; color: black">
-												<a><p style="font-size: 18px; padding-top: 2px">&emsp;&emsp;&emsp;&nbsp;Hình ảnh bài viết</p></a>
-											</div><br/>
+											</div>&nbsp;
+										 
 										<div class = "text-left">
-											&ensp;&emsp;&emsp;&emsp;&emsp;<button type="submit" class="btn btn-success">&emsp;Đăng bài&emsp;</button>
+											&ensp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-success">&emsp;Đăng bài&emsp;</button>
 										</div>
 									  </form>								 
 									 </div>
@@ -285,6 +296,8 @@
 
 					</div>
 				</div>
+				<!-- The Modal -->
+
 				<!--Right-->
 				<div class="col-md-10 col-lg-4 p-b-80" style="border-left: 1px solid grey">
 							<!--  -->
