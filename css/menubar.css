@@ -1,0 +1,10 @@
+#menu-area a:hover{
+   background-color: #3be22c;
+   color: #fff;
+}
+
+#menu-area ul{
+   list-style: none;
+   display: flex;
+ }
+
